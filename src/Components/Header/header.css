@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhaijaan+2&family=Baloo+Tamma+2&family=Kanit&family=Ms+Madi&family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+#Header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #FFFDE7;
+    height: 180px;
+  
+    
+}
+img{
+    margin-top: 6rem;
+    width: 10rem;
+    margin-right: 10rem;
+   
+}
+.header1{
+    display: flex;
+    margin-left: 3rem;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 2rem; */
+    /* margin: 1rem; */
+    width: 45%;
+    gap: 5rem;
+    padding-left: 2rem;
+    /* padding: 3rem; */
+    
+    /* padding-right: 20px; */ 
+}
+.header1 ul{
+    display: flex;
+    align-items: center;
+   
+    list-style-type: none;
+    gap: 9rem;
+    text-decoration: none;
+
+  
+}
+ul li{
+    position: relative;
+    cursor: pointer;
+    /* font-family: 'Segoe Print',sans-serif; */
+    font-weight: bold;
+    font-size: 2.2rem;
+    
+    margin-bottom: 2rem;
+     /* font-family: 'Pacifico', cursive; */
+     font-family: 'Ms Madi', cursive
+}
+ul li::before{
+   
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 90%;
+    width: 0;
+    height: 2px;
+    background-color: rgb(67, 68, 67);
+    transition: all 0.4s linear ;
+}
+ul li:hover::before{
+    width: 100%;
+    background-color: rgb(6, 134, 169);
+}
+.header1 Link{
+    font-weight: bold;
+    color: red;
+}
+.header1 Link::before{
+    content:"";
+    position: absolute;
+}
+
+.header_logo{
+    width: 7%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    margin-right:5rem;
+
+}
+.header2{
+    display: flex;
+    width: 30%;
+    margin-right: 4rem;
+    gap: 2rem;
+    align-items: center;
+    padding-left: 3rem;
+
+}
+.header2 ul{
+    display: flex;
+    align-items: center;
+   
+    list-style-type: none;
+    gap: 6rem;
+}
+.active{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}

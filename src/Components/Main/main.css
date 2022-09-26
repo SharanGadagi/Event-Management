@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhaijaan+2&family=Baloo+Tamma+2&family=Kanit&family=Ms+Madi&family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+#Main{
+    background-image: url('../images/couple4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ 
+  height: 100vh;
+ 
+  display: flex;
+  align-items: center;
+  
+
+  
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+}
+.title .title_heading{
+    padding-left: 5rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    /* padding-bottom:5rem ; */
+    
+}
+.see_btn{
+    margin-top: 1.5rem;
+ width: 10rem;
+ height: 2.8rem;
+    margin-left: 5rem;
+    border-radius: 8px;
+    background-color: rgb(182, 154, 120);
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Ms Madi', cursive; */
+    font-family: 'Segoe Print',sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+ 
+}
+.see_btn:hover{
+    background-color: rgb(219, 171, 113);
+    -webkit-box-shadow: 7px 7px 7px -1px rgba(0,0,0,0.78);
+-moz-box-shadow: 7px 7px 7px -1px rgba(0,0,0,0.78);
+box-shadow: 7px 7px 7px -1px rgba(0,0,0,0.78);
+font-weight: bold;
+}

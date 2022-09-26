@@ -1,0 +1,163 @@
+#Contact{
+    background-image: url('../images/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size:100% ;
+    /* margin-top: 2rem; */
+    object-fit: cover;
+
+    height: 100vh;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+ }
+ .contactMe{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    /* margin: auto; */
+    /* height: 80%; */
+    /* border: 2px solid red; */
+ }
+
+ form{
+    margin-top: 3rem;
+    /* width: 60%;
+    height: 80%; */
+    /* border: 2px solid red; */
+    /* margin-left: 4rem; */
+ }
+ label{
+    /* margin-top: 5rem; */
+    color: white;
+    font-size: 17px;
+    font-style: italic;
+ }
+input{
+    margin-top: 1.5rem;
+    width: 27rem;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #bab8b3;
+    background: none;
+    color: white;
+    font-size: 1.4rem;
+}
+::placeholder{
+    color: rgb(184, 215, 215);
+    font-size: 1.2rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#code{
+    padding: 3px;
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+#tel{
+    margin-left: 12px;
+    padding: 3px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-bottom: 2px solid #bab8b3;
+    width: 22rem;
+    color: white;
+}
+#more{
+    outline: 0;
+    padding: 3px;
+    border: 1.5px solid #bab8b3;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+.register{
+    width: 12rem;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    background-color: rgb(6 88 24);
+    font-weight: bold;
+    font-size: 1.1rem;
+    object-fit: cover;
+    margin-left: 7rem;
+    color: rgb(231, 224, 224);
+    margin-bottom: 50px;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+    -webkit-box-shadow: inset 9px 9px 5px -6px rgba(30,82,9,1);
+    -moz-box-shadow: inset 9px 9px 5px -6px rgba(30,82,9,1);
+    box-shadow: inset 9px 9px 5px -6px rgba(30,82,9,1);
+}
+.register:hover{
+    background-color: rgb(16 175 16);
+    color:black;
+    -webkit-box-shadow: 8.5px 8.5px 5px -7px rgba(75,79,73,1);
+    -moz-box-shadow: 8.5px 8.5px 5px -7px rgba(75,79,73,1);
+    box-shadow: 8.5px 8.5px 5px -7px rgba(75,79,73,1);
+}
+
+ .talkME{
+    display: flex;
+    flex: 2;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* width: 20%; */
+    /* height: 10rem; */
+    /* border: 2px solid red; */
+    
+ }
+ .details{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 1rem;
+    /* border: 2px solid red; */
+    margin-bottom: 20rem;
+    /* object-fit: cover; */
+    /* transform: translate(-50%,-50%); */
+    /* text-align: center; */
+    /* z-index: 22; */
+    padding: 1.2rem;
+    background: rgba(24, 131, 198, 0.02);
+    /* box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 1); */
+    -webkit-box-shadow: -1px 1px 13px 5px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 1px 13px 5px rgba(0,0,0,1);
+    box-shadow: -1px 1px 13px 5px rgb(56, 54, 54);
+    border-radius: 10px;
+
+
+ }
+ .details span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #78d5be;
+
+ }
+ h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #78d5be;
+ }
+ .lets_talk{
+    margin: auto;
+    font-size: 2rem;
+    text-shadow: 5px 0px 3px rgba(0, 0, 0, 0.83);
+    letter-spacing: 2px;
+    color: rgb(242, 242, 242);
+
+ }

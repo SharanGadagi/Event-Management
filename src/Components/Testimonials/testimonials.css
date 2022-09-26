@@ -1,0 +1,120 @@
+.testimonials{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    /* border: 2px solid yellow; */
+}
+.testimonials_heading{
+    /* margin: 5rem;
+    margin-bottom: 10rem; */
+    /* border: 2px solid rgb(55, 225, 228); */
+
+    text-align: center;
+    margin-bottom: 6rem;
+    background-color: black;
+    margin-top: 5rem;
+    width: 35%;
+}
+.testimonials_title{
+    font-size: 4rem;
+    border-bottom: 8px solid #9ea49e;
+
+    border-radius: 12px;
+
+letter-spacing: 8px;
+
+
+text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+
+}
+
+.comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    flex-wrap: wrap;
+    padding: 0 12rem;
+
+}
+
+.single_comment{
+    /* padding: 0 20rem; */
+    /* border: 2px solid red; */
+    /* width: 80%; */
+    display: flex;
+    flex: 30%;
+    max-width: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+.comment_detail{
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+/* background-color: rgb(151, 154, 157); */
+padding: 15px;
+text-align: center;
+/* border: 2px solid rgb(9, 62, 209); */
+/* border-radius: 18px; */
+border: 5px none #1C6EA4;
+border-radius: 120px 0px 120px 0px;
+width: 100%;
+height: 100%;
+transition: all 0.5s linear;
+}
+.comment_detail:hover{
+    transform: scale(1.1);
+}
+.client_img{
+width: 180px;
+height: 180px;
+border-radius: 50%;
+/* border: 2px solid green; */
+object-fit: cover;
+margin-right: 2.5rem;
+}
+
+.client_name{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    /* margin-right: 2.5rem; */
+    text-align: center;
+}
+.client_review{
+    text-align: center;
+
+}
+.readmore{
+    color: red;
+    cursor: pointer;
+}
+.see-more{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    /* border: 2px solid green; */
+    font-size: 1.5rem;
+    color: rgb(160, 148, 148);
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.see-more:hover{
+    color: burlywood;
+    transform: scale(1.1);
+}
